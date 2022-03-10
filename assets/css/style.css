@@ -1,0 +1,83 @@
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.App {
+  overflow: hidden;
+}
+
+.grow {
+  position: relative;
+}
+
+.nav {
+  position: absolute;
+  background-color: #191718;
+  min-width: 15rem;
+  height: 100vh;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav-item {
+  padding: 1rem 0 1rem 3rem;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  margin-left: 15rem;
+  padding: 0 13rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.about-block {
+  background-color: #efefef;
+  padding: 4rem 13rem;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+}
+
+.service {
+  margin: 0 1rem;
+}
+
+.service__des {
+  display: flex;
+}
+
+.service__des img {
+  width: 90px;
+  height: 90px;
+  margin-right: 4px;
+}
+
+.service__des p {
+  margin-top: 0;
+}
+
+footer p {
+  text-align: center;
+}
